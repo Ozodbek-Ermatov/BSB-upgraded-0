@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: paleturquoise;
+
+}
+.ortavoy{
+    width: 90%; 
+    height: 400vh;
+    margin: 5%;
+    margin-top: -0px;
+}
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;           
+}
+h2{
+    text-align: center;
+    color: black;
+    opacity: 40%;
+    font-weight: 900;   
+}
+h3{
+    color: blue;
+    font-weight: 900;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2193b0;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration:solid;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #6dd5ed;
+  }
+  button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #ff6b6b, #f06595);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  button:active {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  img:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s, box-shadow 0.5s;
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+  }
+  img:active{
+    transition: transform 0.5s, box-shadow 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+  }
